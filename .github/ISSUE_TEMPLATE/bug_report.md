@@ -20,6 +20,7 @@ A clear description of the bug.
 **Actual Behavior**
 
 **Hardware / Firmware Info**
+
 - Board revision:
 - Firmware version:
 - Modbus settings (baud, parity, address):

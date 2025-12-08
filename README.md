@@ -24,8 +24,8 @@ This architecture enables reliable, flexible, and scalable output control with b
 
 The full schematic, PCB layout, and BOM are available at:
 
-- Schematic → [https://github.com/OpenModbus/OM-64DO/blob/main/schematics.pdf](https://github.com/OpenModbus/OM-64DO/blob/main/schematics.pdf)
-- PCB Design → [https://github.com/OpenModbus/OM-64DO/blob/main/board_design.pdf](https://github.com/OpenModbus/OM-64DO/blob/main/board_design.pdf)
+- Schematic → [https://github.com/OpenModbus/OM-64DO/blob/main/assets/schematics.pdf](https://github.com/OpenModbus/OM-64DO/blob/main/assets/schematics.pdf)
+- PCB Design → [https://github.com/OpenModbus/OM-64DO/blob/main/assets/board_design.pdf](https://github.com/OpenModbus/OM-64DO/blob/main/assets/board_design.pdf)
 - BOM → [https://github.com/OpenModbus/OM-64DO/blob/main/production/OM-64DO.csv](https://github.com/OpenModbus/OM-64DO/blob/main/production/OM-64DO.csv)
 
 ## 2. Key Features
@@ -265,7 +265,7 @@ The example below shows how to drive 24 V and 12 V relays at the same time using
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/wiring_example_dark.png">
-  <img src="./assets/wiring_example.png">
+  <img alt="Wiring example" src="./assets/wiring_example.png">
 </picture>
 
 This wiring approach can be extended to all four banks, each with its own voltage.

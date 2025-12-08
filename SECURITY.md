@@ -6,6 +6,7 @@ We take the security and reliability of the **Open Modbus OM-64DO** hardware, fi
 If you discover a security issue, we strongly encourage you to report it responsibly and privately.
 
 ### 📧 How to Report
+
 Please send all vulnerability reports to:
 
 [**contact@sszczep.dev**](mailto:contact@sszczep.dev)
@@ -15,10 +16,12 @@ Alternatively, you may open a **private security advisory** through the project�
 [**https://github.com/OpenModbus/OM-64DO/security/advisories**](https://github.com/OpenModbus/OM-64DO/security/advisories)
 
 ### 🔒 Responsible Disclosure
+
 Please **do not** publicly disclose the vulnerability before we have confirmed and addressed it.  
 Early disclosure may put existing users at risk.
 
 ### 🛠 Security Issue Handling
+
 Once a vulnerability is confirmed:
 
 1. We assign a **severity rating** (Low / Medium / High / Critical)  
@@ -28,6 +31,7 @@ Once a vulnerability is confirmed:
 5. Credits are provided to reporters (optional and only with consent)
 
 ### 🧪 What to Include in Your Report
+
 To help us investigate efficiently, please include:
 
 - Description of the vulnerability  
@@ -38,6 +42,7 @@ To help us investigate efficiently, please include:
 - Any proof-of-concept code, test scripts, or Modbus sequences  
 
 ### ⚙ Scope of Security Reports
+
 We accept vulnerability reports related to:
 
 - Firmware or bootloader security  
@@ -55,5 +60,6 @@ Issues **not** considered security vulnerabilities:
 - Third-party library bugs (unless they affect OM-64DO security)
 
 ### 🙏 Thank You
+
 We appreciate the work of security researchers and users who help improve the safety of the project.  
 Responsible disclosure ensures the **OM-64DO** remains reliable in industrial and automation environments.

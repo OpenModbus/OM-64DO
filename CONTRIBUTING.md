@@ -6,6 +6,7 @@ We welcome improvements to firmware, hardware design, documentation, Modbus prot
 ## How to Contribute
 
 ### 1. Fork the Repository
+
 Click **Fork** on GitHub and clone your own fork:
 
 ```bash
@@ -31,6 +32,7 @@ Use meaningful branch names such as:
 When contributing to the project, please follow these guidelines to keep the codebase, hardware design, and documentation consistent and maintainable.
 
 #### General Guidelines
+
 - Keep each change **focused and atomic**  
 - Write clear, descriptive commit messages  
 - Avoid mixing unrelated fixes or features in the same commit  
@@ -38,6 +40,7 @@ When contributing to the project, please follow these guidelines to keep the cod
 - Test your changes thoroughly before submitting a pull request
 
 #### Firmware Guidelines
+
 If you are contributing firmware updates:
 
 - Follow the existing coding style and file structure  
@@ -48,6 +51,7 @@ If you are contributing firmware updates:
 - Include Modbus frame traces or test instructions  
 
 #### Hardware Guidelines
+
 When contributing to schematic, PCB, or BOM:
 
 - Respect industrial clearances, creepage, and current ratings  
@@ -62,6 +66,7 @@ When contributing to schematic, PCB, or BOM:
 Avoid increasing BOM cost unless the improvement is justified.
 
 #### Documentation Guidelines
+
 Documentation contributions are always welcome. Please:
 
 - Use clear, concise language  
@@ -70,6 +75,7 @@ Documentation contributions are always welcome. Please:
 - Update wiring examples, register maps, or Modbus instructions if changes affect them
 
 #### Commit Message Format
+
 Use clear, structured commit messages:
 
 ```text
@@ -96,6 +102,7 @@ docs: add mixed-voltage wiring example
 ```
 
 #### Submitting Your Changes
+
 Once your changes are complete:
 
 ```bash
