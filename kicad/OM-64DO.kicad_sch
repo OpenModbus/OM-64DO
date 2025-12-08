@@ -720,6 +720,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -2650,7 +2835,7 @@
 	)
 	(rectangle
 		(start 90.17 153.67)
-		(end 133.35 185.42)
+		(end 139.7 185.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -2685,8 +2870,8 @@
 		(uuid 950536b5-539a-4d9d-b8d4-890bf43dcdf1)
 	)
 	(rectangle
-		(start 135.7342 153.67)
-		(end 158.75 185.42)
+		(start 142.0842 153.67)
+		(end 165.1 185.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -2722,7 +2907,7 @@
 	)
 	(text "DECOUPLING CAPS"
 		(exclude_from_sim no)
-		(at 135.89 152.908 0)
+		(at 142.24 152.908 0)
 		(effects
 			(font
 				(face "Fira Code SemiBold")
@@ -2814,7 +2999,7 @@
 		(uuid "298dd929-0eca-4cf6-be22-c6166a51409b")
 	)
 	(junction
-		(at 147.32 172.72)
+		(at 153.67 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b357704-fb99-4201-9dea-98c07958f628")
@@ -2830,6 +3015,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e7c2ff4-3763-4807-8bb7-a1e32dfff693")
+	)
+	(junction
+		(at 129.54 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31400915-09f1-4758-8cdc-fff6a446a500")
 	)
 	(junction
 		(at 125.73 173.99)
@@ -2934,6 +3125,12 @@
 		(uuid "9fca2ff1-67fe-423c-82eb-65be5f5fad5a")
 	)
 	(junction
+		(at 129.54 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a06ba7f4-ff83-49ca-b0c5-1a445c09808a")
+	)
+	(junction
 		(at 232.41 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3000,7 +3197,7 @@
 		(uuid "db4279e0-778b-4e13-aa39-803effa47df3")
 	)
 	(junction
-		(at 147.32 165.1)
+		(at 153.67 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfbb357e-e3b6-4378-aa63-5e98616aba10")
@@ -3115,7 +3312,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 166.37) (xy 144.78 165.1)
+			(xy 151.13 166.37) (xy 151.13 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3145,7 +3342,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 165.1) (xy 149.86 165.1)
+			(xy 153.67 165.1) (xy 156.21 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3172,6 +3369,16 @@
 			(type default)
 		)
 		(uuid "108c6573-a1a3-4311-b29f-a463cd8658b4")
+	)
+	(wire
+		(pts
+			(xy 129.54 163.83) (xy 134.62 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110f4f90-99c2-48a7-b15a-a2a2c9c5ab0b")
 	)
 	(wire
 		(pts
@@ -3285,7 +3492,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 171.45) (xy 149.86 172.72)
+			(xy 156.21 171.45) (xy 156.21 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3322,6 +3529,16 @@
 			(type default)
 		)
 		(uuid "2feebfdf-adb8-479b-8253-ddf43c3abf5a")
+	)
+	(wire
+		(pts
+			(xy 129.54 176.53) (xy 134.62 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304fbe0d-64e3-4fdb-b78c-394e89f46055")
 	)
 	(wire
 		(pts
@@ -3695,7 +3912,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 177.8) (xy 129.54 173.99)
+			(xy 129.54 177.8) (xy 129.54 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3722,6 +3939,16 @@
 			(type default)
 		)
 		(uuid "660c9748-337d-4865-9edd-32f5127681c7")
+	)
+	(wire
+		(pts
+			(xy 134.62 165.1) (xy 134.62 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680c87cb-e5fe-4f71-8c02-682012382d76")
 	)
 	(wire
 		(pts
@@ -3775,7 +4002,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 172.72) (xy 144.78 172.72)
+			(xy 153.67 172.72) (xy 151.13 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3795,7 +4022,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 165.1) (xy 149.86 166.37)
+			(xy 156.21 165.1) (xy 156.21 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4065,7 +4292,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 165.1) (xy 147.32 165.1)
+			(xy 151.13 165.1) (xy 153.67 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4135,13 +4362,33 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 172.72) (xy 147.32 175.26)
+			(xy 153.67 172.72) (xy 153.67 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af68d05c-75ea-48b8-8e46-f4ecff3e083a")
+	)
+	(wire
+		(pts
+			(xy 129.54 176.53) (xy 129.54 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa616b3-1bc2-4c5d-bdc3-5094bc4a2938")
+	)
+	(wire
+		(pts
+			(xy 129.54 163.83) (xy 129.54 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa88823-e272-4ed1-88f0-5b8d7fa9b7d4")
 	)
 	(wire
 		(pts
@@ -4245,7 +4492,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 172.72) (xy 144.78 171.45)
+			(xy 151.13 172.72) (xy 151.13 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4315,6 +4562,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 175.26) (xy 134.62 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cecd351a-4ea4-4ce7-9901-e295f494f4b7")
+	)
+	(wire
+		(pts
 			(xy 236.22 102.87) (xy 236.22 71.12)
 		)
 		(stroke
@@ -4335,7 +4592,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 162.56) (xy 129.54 166.37)
+			(xy 129.54 162.56) (xy 129.54 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4465,7 +4722,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 172.72) (xy 147.32 172.72)
+			(xy 156.21 172.72) (xy 153.67 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4585,7 +4842,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 162.56) (xy 147.32 165.1)
+			(xy 153.67 162.56) (xy 153.67 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5457,7 +5714,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 149.86 168.91 0)
+		(at 156.21 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5466,7 +5723,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f3d3e81-16b4-464d-82f3-b7d9e5974fad")
 		(property "Reference" "C105"
-			(at 152.4 167.6463 0)
+			(at 158.75 167.6463 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,7 +5732,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 152.4 170.1863 0)
+			(at 158.75 170.1863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +5741,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 149.86 168.91 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,7 +5750,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 168.91 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5759,7 @@
 			)
 		)
 		(property "Description" "0.1 uF 50 VDC 10% 0603 X7R AEC-Q200"
-			(at 149.86 168.91 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +5768,7 @@
 			)
 		)
 		(property "Part Number" "GCJ188R71H104KA12D"
-			(at 149.86 168.91 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +5777,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 149.86 168.91 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +5786,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GCJ188R71H104KA2D"
-			(at 149.86 168.91 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,8 +6321,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f8d1b87-a479-46a0-979e-bff1f7f3c977")
+		(property "Reference" "R103"
+			(at 136.652 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 134.62 172.72 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 470Ohm 5% 1/4W AEC-Q200"
+			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 134.62 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-UP3J471V"
+			(at 134.62 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ERJ-UP3J471V"
+			(at 134.62 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb41f659-d5b5-4f19-81cc-99c88fa35000")
+		)
+		(pin "2"
+			(uuid "8c3584ce-f60d-4e01-9b4a-e6f53b86b05e")
+		)
+		(instances
+			(project ""
+				(path "/31f106e3-11bf-44f7-ae69-e6c4688ee32b"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 147.32 162.56 0)
+		(at 153.67 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6074,7 +6425,7 @@
 		(fields_autoplaced yes)
 		(uuid "4097705c-2812-46f0-9987-1d42107ad060")
 		(property "Reference" "#PWR0120"
-			(at 147.32 166.37 0)
+			(at 153.67 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +6434,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 147.32 157.48 0)
+			(at 153.67 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +6442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 162.56 0)
+			(at 153.67 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 162.56 0)
+			(at 153.67 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +6460,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 147.32 162.56 0)
+			(at 153.67 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7107,7 +7458,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 175.26 0)
+		(at 153.67 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7116,7 +7467,7 @@
 		(fields_autoplaced yes)
 		(uuid "75d38ea1-dc32-436a-8137-52fef821dac0")
 		(property "Reference" "#PWR0121"
-			(at 147.32 181.61 0)
+			(at 153.67 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +7476,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 180.34 0)
+			(at 153.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,7 +7484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 175.26 0)
+			(at 153.67 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7142,7 +7493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 175.26 0)
+			(at 153.67 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +7502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 175.26 0)
+			(at 153.67 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,6 +7683,111 @@
 			(project "Modbus-Output-Expansion-Module"
 				(path "/31f106e3-11bf-44f7-ae69-e6c4688ee32b"
 					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 134.62 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fb0c542-b017-4947-b4c2-f0eceffbf5c4")
+		(property "Reference" "D102"
+			(at 134.366 166.624 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "RED"
+			(at 134.874 166.624 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 134.62 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Color LEDs Red Clear 621nm"
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTST-C190EKT"
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C190EKT"
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LITEON"
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b8c38e1-ae55-413d-b89e-58dad3654edb")
+		)
+		(pin "2"
+			(uuid "4d716fa3-e091-4c12-8b37-01e7774cdc65")
+		)
+		(instances
+			(project "OM-64DO"
+				(path "/31f106e3-11bf-44f7-ae69-e6c4688ee32b"
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -8747,7 +9203,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 144.78 168.91 0)
+		(at 151.13 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8755,7 +9211,7 @@
 		(dnp no)
 		(uuid "e9ef264b-e3a0-4a43-8cc2-d06f12f1472e")
 		(property "Reference" "C104"
-			(at 142.494 167.64 0)
+			(at 148.844 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +9220,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 142.494 170.18 0)
+			(at 148.844 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,7 +9229,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 144.78 168.91 0)
+			(at 151.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +9238,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 168.91 0)
+			(at 151.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8791,7 +9247,7 @@
 			)
 		)
 		(property "Description" "2.2 uF 50 VDC 10% 0603 X5R AEC-Q200"
-			(at 144.78 168.91 0)
+			(at 151.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +9256,7 @@
 			)
 		)
 		(property "Part Number" "GRT188R61H225KE13D"
-			(at 144.78 168.91 0)
+			(at 151.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8809,7 +9265,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 144.78 168.91 0)
+			(at 151.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,7 +9274,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRT188R61H225KE3D"
-			(at 144.78 168.91 0)
+			(at 151.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
