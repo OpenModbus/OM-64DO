@@ -12,6 +12,10 @@
 
 A compact industrial-grade **64-channel Modbus RTU output module** featuring low-side drivers, per-channel LEDs, wide input voltage, DIN-rail support, and full configuration via Modbus holding registers. Designed for automation, distributed I/O, and custom control applications.
 
+**🔔 This project participates in PCBWay 8th Project Design Contest**
+
+If you like what we do, please make sure to vote and drop a like: [https://www.pcbway.com/project/shareproject/Open_Modbus_OM_64DO_ae9ad184.html](https://www.pcbway.com/project/shareproject/Open_Modbus_OM_64DO_ae9ad184.html).
+
 ## 1. Product Overview
 
 The **Open Modbus OM-64DO** is a 64-channel low-side output expansion module intended for industrial automation, machine control, and distributed I/O networks using **Modbus RTU** over RS-485.  
