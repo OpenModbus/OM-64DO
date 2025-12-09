@@ -8925,7 +8925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
+		(property "Footprint" "Project_Library:R_Array_Convex_8x0602_EXB2HV"
 			(at 162.56 126.365 90)
 			(effects
 				(font
@@ -12763,7 +12763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
+		(property "Footprint" "Project_Library:R_Array_Convex_8x0602_EXB2HV"
 			(at 160.655 128.27 90)
 			(effects
 				(font
@@ -12989,7 +12989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
+		(property "Footprint" "Project_Library:R_Array_Convex_8x0602_EXB2HV"
 			(at 162.56 73.025 90)
 			(effects
 				(font
@@ -13139,7 +13139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
+		(property "Footprint" "Project_Library:R_Array_Convex_8x0602_EXB2HV"
 			(at 160.655 74.93 90)
 			(effects
 				(font

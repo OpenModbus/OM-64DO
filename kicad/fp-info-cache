@@ -1,4 +1,4 @@
-26778156184363638
+26779928085960945
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93666,6 +93666,13 @@ OpenModbus
 0
 0
 0
+Project_Library
+R_Array_Convex_8x0602_EXB2HV
+Chip Resistor Network, ROHM MNR18 (see mnr_g.pdf)
+resistor array
+0
+16
+16
 Project_Library
 TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal_No_SilkScreen
 Terminal Block Phoenix PT-1,5-4-3.5-H, 4 pins, pitch 3.5mm, size 14x7.6mm, drill diameter 1.2mm, pad diameter 2.4mm, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
