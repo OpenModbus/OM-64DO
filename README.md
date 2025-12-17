@@ -12,6 +12,8 @@
 
 A compact industrial-grade **64-channel Modbus RTU output module** featuring low-side drivers, per-channel LEDs, wide input voltage, DIN-rail support, and full configuration via Modbus holding registers. Designed for automation, distributed I/O, and custom control applications.
 
+![Exploded PCB Render](./assets/exploded_render.webp)
+
 **🔔 This project participates in PCBWay 8th Project Design Contest**
 
 If you like what we do, please make sure to vote and drop a like: [https://www.pcbway.com/project/shareproject/Open_Modbus_OM_64DO_ae9ad184.html](https://www.pcbway.com/project/shareproject/Open_Modbus_OM_64DO_ae9ad184.html).
@@ -30,7 +32,7 @@ The full schematic, PCB layout, and BOM are available at:
 
 - Schematic → [https://github.com/OpenModbus/OM-64DO/blob/main/assets/schematics.pdf](https://github.com/OpenModbus/OM-64DO/blob/main/assets/schematics.pdf)
 - PCB Design → [https://github.com/OpenModbus/OM-64DO/blob/main/assets/board_design.pdf](https://github.com/OpenModbus/OM-64DO/blob/main/assets/board_design.pdf)
-- BOM → [https://github.com/OpenModbus/OM-64DO/blob/main/production/OM-64DO.csv](https://github.com/OpenModbus/OM-64DO/blob/main/production/OM-64DO.csv)
+- BOM → [https://github.com/OpenModbus/OM-64DO/blob/main/assets/bom.csv](https://github.com/OpenModbus/OM-64DO/blob/main/assets/bom.csv)
 
 ## 2. Key Features
 

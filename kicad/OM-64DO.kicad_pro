@@ -37,7 +37,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.65,
+          "drill": 0.0,
           "height": 1.0,
           "width": 1.0
         },
@@ -139,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -211,7 +211,7 @@
         "single_track_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 1.0,
+          "max_amplitude": 0.8,
           "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 0.6
@@ -506,8 +506,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../production/",
-      "pos_files": "../production/",
+      "plot": "../pcbway/",
+      "pos_files": "../pcbway/",
       "specctra_dsn": "",
       "step": "OM-64DO.step",
       "svg": "",
@@ -516,7 +516,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 500,
     "bom_export_filename": "../production/OM-64DO.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -545,10 +545,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -572,7 +572,7 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -621,8 +621,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Description"
+      "sort_asc": true,
+      "sort_field": "Datasheet"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -670,19 +670,19 @@
       "Root"
     ],
     [
-      "cae85463-2d46-4999-9519-ac32c91af121",
+      "c4aa5142-9571-43fb-9b24-c721194d045e",
       "BANK A"
     ],
     [
-      "98c53dcd-d3ac-4180-9a17-cf6c6076d9ad",
+      "2bf91e91-5d65-4662-ba81-71371f2e9ca5",
       "BANK B"
     ],
     [
-      "a2dce13a-c4c2-41f5-a735-5003b1e56821",
+      "214c0176-3465-4885-98ab-ade887d80f32",
       "BANK C"
     ],
     [
-      "09c68e98-0d1d-419a-b7f9-af55361af634",
+      "a73ec457-3237-497e-b5f7-811b4e7b0802",
       "BANK D"
     ]
   ],

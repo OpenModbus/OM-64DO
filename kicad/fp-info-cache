@@ -1,4 +1,4 @@
-26779928085960945
+26783459664219085
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93673,6 +93673,20 @@ resistor array
 0
 16
 16
+Project_Library
+TerminalBlock_DEGSON_15EDGVC-3.5-4P_No_SilkScreen
+Pluggable Terminal Blocks Nominal current 7A. Rated voltage 250V, pitch 3.5mm, Color green, Contact surface Tin
+Terminal Block DEGSON 15EDGVC pitch 3.5mm 4P
+0
+4
+4
+Project_Library
+TerminalBlock_DEGSON_15EDGVC-3.5-20P_No_SilkScreen
+Pluggable Terminal Blocks Nominal current 7A. Rated voltage 250V, pitch 3.5mm, Color green, Contact surface Tin
+Terminal Block DEGSON 15EDGVC pitch 3.5mm 20P
+0
+20
+20
 Project_Library
 TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal_No_SilkScreen
 Terminal Block Phoenix PT-1,5-4-3.5-H, 4 pins, pitch 3.5mm, size 14x7.6mm, drill diameter 1.2mm, pad diameter 2.4mm, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
