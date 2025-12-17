@@ -43,9 +43,9 @@ The full schematic, PCB layout, and BOM are available at:
 - RS-485 Modbus RTU communication (THVD1450 transceiver)  
 - Fully configurable serial parameters  
 - Per-channel LED indicators  
-- Screw terminals (Phoenix PT 1,5/..-H compatible)  
+- DEGSON 15EDG pluggable screw terminals
 - DIN-rail mount using **UM72S profile**  
-- Compact PCB (160 × 72 mm)
+- Compact PCB (163.1 × 72 mm)
 
 ## 3. Applications
 
@@ -118,9 +118,9 @@ The board accepts **7–28 VDC** and includes a high-efficiency **R-78E3.3-1.0**
 
 ## 6. Mechanical Information
 
-- PCB: **160 × 72 mm**  
+- PCB: **163.1 × 72 mm**  
 - DIN-rail enclosure compatibility: **UM72S profile**  
-- PT 1,5 series screw terminals  
+- DEGSON 15EDG pluggable screw terminals  
 - Mounting suitable for industrial control cabinets  
 
 ## 7. Functional Overview
