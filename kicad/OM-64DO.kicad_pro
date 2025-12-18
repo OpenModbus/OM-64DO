@@ -506,7 +506,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../pcbway/",
+      "plot": "../assets/",
       "pos_files": "../pcbway/",
       "specctra_dsn": "",
       "step": "OM-64DO.step",
