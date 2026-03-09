@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "OM-64DO - 64 CHANNEL OUTPUT EXPANSION MODULE (BANK)")
-		(date "2025-12-08")
-		(rev "1A")
+		(date "2026-03-09")
+		(rev "1B")
 		(company "HTTPS://GITHUB.COM/OPENMODBUS/OM-64DO")
 		(comment 1 "Supply voltage: 7–28 V DC; Output rating: up to 50 V DC (load side)")
 		(comment 2 "Suitable for driving relay coils and other loads.")
