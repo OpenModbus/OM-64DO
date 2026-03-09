@@ -24,11 +24,12 @@ jobs:
           TAG_NAME="${GITHUB_REF_NAME#board-}"
           ARTIFACT_NAME="board-${TAG_NAME}.zip"
           mv board_artifact.zip "${ARTIFACT_NAME}"
+          echo "TAG_NAME=${TAG_NAME}" >> $GITHUB_ENV
           echo "ARTIFACT_NAME=${ARTIFACT_NAME}" >> $GITHUB_ENV
       - name: Create GitHub Release and upload board artifact
         uses: softprops/action-gh-release@v2.5.0
         with:
           files: ./kicad/Release/${{ env.ARTIFACT_NAME }}
-          name: Board revision ${{ env.ARTIFACT_NAME }}
+          name: Board revision ${{ env.TAG_NAME }}
           generate_release_notes: true
           make_latest: true
