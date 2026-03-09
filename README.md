@@ -28,11 +28,12 @@ This architecture enables reliable, flexible, and scalable output control with b
 
 ### 📦 Hardware Files
 
-The full schematic, PCB layout, and BOM are available at:
+The full schematic and BOM are available at:
 
 - Schematic → [https://github.com/OpenModbus/OM-64DO/blob/main/assets/schematics.pdf](https://github.com/OpenModbus/OM-64DO/blob/main/assets/schematics.pdf)
-- PCB Design → [https://github.com/OpenModbus/OM-64DO/blob/main/assets/board_design.pdf](https://github.com/OpenModbus/OM-64DO/blob/main/assets/board_design.pdf)
 - BOM → [https://github.com/OpenModbus/OM-64DO/blob/main/assets/bom.csv](https://github.com/OpenModbus/OM-64DO/blob/main/assets/bom.csv)
+
+Check the latest release for more!
 
 ## 2. Key Features
 

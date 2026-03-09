@@ -1,0 +1,400 @@
+kibot:
+  version: 1
+
+global:
+  out_dir: ./Release
+  filters: 
+    - number: 142
+    - number: 145
+
+import:
+- file: JLCPCB_stencil_with_THT
+  definitions:
+    _KIBOT_MANF_DIR: Manufacturers/JLCPCB
+    _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
+- file: PCBWay_stencil
+  definitions:
+    _KIBOT_MANF_DIR: Manufacturers/PCBWay
+- file: ExportProject
+  definitions:
+    _KIBOT_DIR_COMP: Project
+
+preflight:
+  drc:
+    format: CSV
+  erc:
+    format: CSV
+  check_zone_fills: true
+  update_xml: true
+
+outputs:
+- name: generic_bom_csv
+  comment: Generic Bill of Materials in CSV format
+  type: bom
+  dir: BoM/Generic
+  options:
+    format: CSV
+    count_smd_tht: true
+- name: generic_bom_xml
+  comment: Generic Bill of Materials in XML format
+  type: bom
+  dir: BoM/Generic
+  options:
+    format: XML
+    count_smd_tht: true
+- name: generic_bom_xlsx
+  comment: Generic Bill of Materials in XLSX format
+  type: bom
+  dir: BoM/Generic
+  options:
+    format: XLSX
+    count_smd_tht: true
+- name: kicad_internal_bom
+  type: bom
+  dir: BoM/KiCad
+  comment: BoM using KiCad settings
+  options:
+    format: KICAD
+    ignore_dnf: false
+    group_not_fitted: true
+    group_fields: []
+    sort_style: kicad_bom
+    columns:
+    - _kicad_bom_fields
+# - name: kicost
+#   type: kicost
+#   dir: BoM
+#   comment: Generate components costs spreadsheet
+- name: download_datasheets
+  comment: Download the datasheets
+  type: download_datasheets
+  dir: Datasheets
+- name: dxf
+  comment: Individual layers in DXF format
+  type: dxf
+  dir: Individual_Layers/DXF
+  layers:
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Bottom copper
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Bottom soldermask (negative)
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Bottom silkscreen (artwork)
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Bottom solder paste
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Bottom courtyard area
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Bottom documentation
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+- name: dxf_sch_print
+  comment: Schematic in DXF format
+  type: dxf_sch_print
+  dir: Schematic
+# - name: excellon
+#   comment: Drill files in EXCELLON format
+#   type: excellon
+#   dir: Gerbers_and_Drill
+#   options:
+#     map: pdf
+# - name: gerb_drill
+#   comment: Drill files in GERB_DRILL format
+#   type: gerb_drill
+#   dir: Gerbers_and_Drill
+#   options:
+#     map: gerber
+# - name: gerber_modern
+#   comment: Gerbers in modern format, recommended by the standard
+#   type: gerber
+#   dir: Gerbers_and_Drill
+#   layers:
+#   - layer: F.Cu
+#     suffix: F_Cu
+#     description: Front copper
+#   - layer: F.Mask
+#     suffix: F_Mask
+#     description: Front soldermask (negative)
+#   - layer: B.Cu
+#     suffix: B_Cu
+#     description: Bottom copper
+#   - layer: B.Mask
+#     suffix: B_Mask
+#     description: Bottom soldermask (negative)
+#   - layer: F.Silkscreen
+#     suffix: F_Silkscreen
+#     description: Front silkscreen (artwork)
+#   - layer: B.Silkscreen
+#     suffix: B_Silkscreen
+#     description: Bottom silkscreen (artwork)
+#   - layer: F.Paste
+#     suffix: F_Paste
+#     description: Front solder paste
+#   - layer: B.Paste
+#     suffix: B_Paste
+#     description: Bottom solder paste
+#   - layer: Edge.Cuts
+#     suffix: Edge_Cuts
+#     description: Board shape
+#   - layer: B.Courtyard
+#     suffix: B_Courtyard
+#     description: Bottom courtyard area
+#   - layer: F.Courtyard
+#     suffix: F_Courtyard
+#     description: Front courtyard area
+#   - layer: B.Fab
+#     suffix: B_Fab
+#     description: Bottom documentation
+#   - layer: F.Fab
+#     suffix: F_Fab
+#     description: Front documentation
+- name: info
+  comment: Information about the run
+  type: info
+  dir: .
+- name: pcb_print_svg
+  comment: PCB
+  type: pcb_print
+  dir: PCB/SVG
+  options:
+    format: SVG
+    pages:
+    - layers:
+      - layer: F.Cu
+      - layer: F.Mask
+        color: '#14332440'
+      - layer: F.Paste
+      - layer: F.Silkscreen
+      - layer: Edge.Cuts
+      sheet: Front copper
+    - layers:
+      - layer: F.Mask
+        color: '#14332440'
+      - layer: Edge.Cuts
+      sheet: Front soldermask (negative)
+    - layers:
+      - layer: B.Cu
+      - layer: B.Mask
+        color: '#14332440'
+      - layer: B.Paste
+      - layer: B.Silkscreen
+      - layer: Edge.Cuts
+      mirror: true
+      sheet: Bottom copper
+    - layers:
+      - layer: B.Courtyard
+      - layer: Edge.Cuts
+      mirror: true
+      sheet: Bottom courtyard area
+    - layers:
+      - layer: F.Courtyard
+      - layer: Edge.Cuts
+      sheet: Front courtyard area
+    - layers:
+      - layer: B.Fab
+      - layer: Edge.Cuts
+      mirror: true
+      sheet: Bottom documentation
+    - layers:
+      - layer: F.Fab
+      - layer: Edge.Cuts
+      sheet: Front documentation
+    - repeat_for_layer: User.Drawings
+      repeat_layers: drill_pairs
+      layers:
+      - layer: User.Drawings
+        color: '#000000'
+      - layer: Edge.Cuts
+        color: '#000000'
+    keep_temporal_files: true
+    add_background: true
+- name: pcbdraw_svg_set-black-enig_top
+  comment: PCB 2D render in SVG format, using set-black-enig style
+  type: pcbdraw
+  dir: PCB/2D
+  options:
+    style: set-black-enig
+    format: svg
+- name: pcbdraw_png_set-black-enig_top
+  comment: PCB 2D render in PNG format, using set-black-enig style
+  type: pcbdraw
+  dir: PCB/2D
+  options:
+    style: set-black-enig
+    format: png
+- name: pcbdraw_svg_set-black-enig_bottom
+  comment: PCB 2D render in SVG format, using set-black-enig style
+  type: pcbdraw
+  dir: PCB/2D
+  options:
+    style: set-black-enig
+    format: svg
+    bottom: true
+- name: pcbdraw_png_set-black-enig_bottom
+  comment: PCB 2D render in PNG format, using set-black-enig style
+  type: pcbdraw
+  dir: PCB/2D
+  options:
+    style: set-black-enig
+    format: png
+    bottom: true
+- name: pdf
+  comment: Individual layers in PDF format
+  type: pdf
+  dir: Individual_Layers/PDF
+  layers:
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Bottom copper
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Bottom soldermask (negative)
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Bottom silkscreen (artwork)
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Bottom solder paste
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Bottom courtyard area
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Bottom documentation
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+- name: pdf_sch_print
+  comment: Schematic in PDF format
+  type: pdf_sch_print
+  dir: Schematic
+  options:
+    monochrome: true
+# - name: position_ASCII
+#   comment: Components position for Pick & Place
+#   type: position
+#   dir: Position
+#   options:
+#     format: ASCII
+#     only_smd: false
+# - name: position_CSV
+#   comment: Components position for Pick & Place
+#   type: position
+#   dir: Position
+#   options:
+#     format: CSV
+#     only_smd: false
+- name: report_full
+  comment: Full design report
+  type: report
+  options:
+    template: full_SVG
+- name: svg
+  comment: Individual layers in SVG format
+  type: svg
+  dir: Individual_Layers/SVG
+  layers:
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Bottom copper
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Bottom soldermask (negative)
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Bottom silkscreen (artwork)
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Bottom solder paste
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: B.Courtyard
+    suffix: B_Courtyard
+    description: Bottom courtyard area
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: B.Fab
+    suffix: B_Fab
+    description: Bottom documentation
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+- name: svg_sch_print
+  comment: Schematic in SVG format
+  type: svg_sch_print
+  dir: Schematic
+  options:
+    monochrome: true
+
+...
+definitions:
+  _KIBOT_MANF_DIR_COMP: Manufacturers
+  _KIBOT_GERBER_LAYERS: "- layer: 'F.Cu'\n        suffix: 'F_Cu'\n        description:\
+    \ 'Front copper'\n      - layer: 'F.Mask'\n        suffix: 'F_Mask'\n        description:\
+    \ 'Front soldermask (negative)'\n      - layer: 'B.Cu'\n        suffix: 'B_Cu'\n\
+    \        description: 'Bottom copper'\n      - layer: 'B.Mask'\n        suffix:\
+    \ 'B_Mask'\n        description: 'Bottom soldermask (negative)'\n      - layer:\
+    \ 'F.Silkscreen'\n        suffix: 'F_Silkscreen'\n        description: 'Front\
+    \ silkscreen (artwork)'\n      - layer: 'B.Silkscreen'\n        suffix: 'B_Silkscreen'\n\
+    \        description: 'Bottom silkscreen (artwork)'\n      - layer: 'F.Paste'\n\
+    \        suffix: 'F_Paste'\n        description: 'Front solder paste'\n      -\
+    \ layer: 'B.Paste'\n        suffix: 'B_Paste'\n        description: 'Bottom solder\
+    \ paste'\n      - layer: 'Edge.Cuts'\n        suffix: 'Edge_Cuts'\n        description:\
+    \ 'Board shape'"
