@@ -2578,7 +2578,7 @@
 		)
 		(uuid "039f6620-3283-4f55-b2d9-d65a5a0314ee")
 	)
-	(text "8x 2K2"
+	(text "8x3K3"
 		(exclude_from_sim no)
 		(at 274.32 95.758 0)
 		(effects
@@ -2598,7 +2598,7 @@
 		)
 		(uuid "3668ab65-9f30-410f-9cf2-a4d177b342da")
 	)
-	(text "8x 2K2"
+	(text "8x3K3"
 		(exclude_from_sim no)
 		(at 274.32 149.098 0)
 		(effects
@@ -6726,7 +6726,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 266.7 96.52 0)
 			(effects
 				(font
@@ -6754,7 +6754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 264.16 95.25 0)
 			(effects
 				(font
@@ -6772,7 +6772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 264.16 95.25 90)
 			(effects
 				(font
@@ -6781,7 +6781,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 264.16 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 264.16 95.25 90)
 			(effects
 				(font
@@ -6871,15 +6880,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 256.54 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 256.54 139.7 0)
 			(effects
@@ -6889,7 +6889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 256.54 139.7 0)
 			(effects
 				(font
@@ -6898,7 +6898,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 256.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 256.54 139.7 0)
 			(effects
 				(font
@@ -6952,7 +6961,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 271.78 96.52 0)
 			(effects
 				(font
@@ -6980,7 +6989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 269.24 95.25 0)
 			(effects
 				(font
@@ -6998,7 +7007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 269.24 95.25 90)
 			(effects
 				(font
@@ -7007,7 +7016,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 269.24 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 269.24 95.25 90)
 			(effects
 				(font
@@ -7116,7 +7134,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "576-SMBJ45A"
+		(property "LCSC#" "C720171"
+			(at 114.3 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "576-SMBJ45A"
 			(at 114.3 195.58 90)
 			(effects
 				(font
@@ -7170,7 +7197,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 271.78 149.86 0)
 			(effects
 				(font
@@ -7198,7 +7225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 269.24 148.59 0)
 			(effects
 				(font
@@ -7216,7 +7243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 269.24 148.59 90)
 			(effects
 				(font
@@ -7225,7 +7252,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 269.24 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 269.24 148.59 90)
 			(effects
 				(font
@@ -7279,7 +7315,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 264.16 149.86 0)
 			(effects
 				(font
@@ -7307,7 +7343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 261.62 148.59 0)
 			(effects
 				(font
@@ -7325,7 +7361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 261.62 148.59 90)
 			(effects
 				(font
@@ -7334,7 +7370,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 261.62 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 261.62 148.59 90)
 			(effects
 				(font
@@ -7424,15 +7469,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 269.24 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 269.24 139.7 0)
 			(effects
@@ -7442,7 +7478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 269.24 139.7 0)
 			(effects
 				(font
@@ -7451,7 +7487,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 269.24 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 269.24 139.7 0)
 			(effects
 				(font
@@ -7505,7 +7550,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 254 96.52 0)
 			(effects
 				(font
@@ -7533,7 +7578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 251.46 95.25 0)
 			(effects
 				(font
@@ -7551,7 +7596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 251.46 95.25 90)
 			(effects
 				(font
@@ -7560,7 +7605,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 251.46 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 251.46 95.25 90)
 			(effects
 				(font
@@ -7650,15 +7704,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 254 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 254 139.7 0)
 			(effects
@@ -7668,7 +7713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 254 139.7 0)
 			(effects
 				(font
@@ -7677,7 +7722,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 254 139.7 0)
 			(effects
 				(font
@@ -7767,15 +7821,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 264.16 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 264.16 139.7 0)
 			(effects
@@ -7785,7 +7830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 264.16 139.7 0)
 			(effects
 				(font
@@ -7794,7 +7839,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 264.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 264.16 139.7 0)
 			(effects
 				(font
@@ -7925,7 +7979,7 @@
 				)
 			)
 		)
-		(property "Value" "8x 47R"
+		(property "Value" "47R"
 			(at 215.9 151.13 90)
 			(effects
 				(font
@@ -7978,7 +8032,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-EXB-2HV470JV"
+		(property "LCSC#" "C713462"
+			(at 215.9 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-EXB-2HV470JV"
 			(at 215.9 165.1 90)
 			(effects
 				(font
@@ -8128,7 +8191,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71H104KA2D"
+		(property "LCSC#" "C161115"
+			(at 168.91 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-GCJ188R71H104KA2D"
 			(at 168.91 198.12 0)
 			(effects
 				(font
@@ -8313,7 +8385,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRT188R61H225KE3D"
+		(property "LCSC#" "C668370"
+			(at 133.35 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-GRT188R61H225KE3D"
 			(at 133.35 198.12 0)
 			(effects
 				(font
@@ -8421,7 +8502,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71H104KA2D"
+		(property "LCSC#" "C161115"
+			(at 140.97 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-GCJ188R71H104KA2D"
 			(at 140.97 146.05 0)
 			(effects
 				(font
@@ -8511,15 +8601,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 264.16 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 264.16 86.36 0)
 			(effects
@@ -8529,7 +8610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 264.16 86.36 0)
 			(effects
 				(font
@@ -8538,7 +8619,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 264.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 264.16 86.36 0)
 			(effects
 				(font
@@ -8628,15 +8718,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 261.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 261.62 86.36 0)
 			(effects
@@ -8646,7 +8727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 261.62 86.36 0)
 			(effects
 				(font
@@ -8655,7 +8736,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 261.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 261.62 86.36 0)
 			(effects
 				(font
@@ -8763,7 +8853,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71H104KA2D"
+		(property "LCSC#" "C161115"
+			(at 138.43 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-GCJ188R71H104KA2D"
 			(at 138.43 198.12 0)
 			(effects
 				(font
@@ -8871,7 +8970,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "647-UCM1J101MNL1GS"
+		(property "LCSC#" "C445456"
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "647-UCM1J101MNL1GS"
 			(at 101.6 195.58 0)
 			(effects
 				(font
@@ -8961,15 +9069,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 251.46 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 251.46 86.36 0)
 			(effects
@@ -8979,7 +9078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 251.46 86.36 0)
 			(effects
 				(font
@@ -8988,7 +9087,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 251.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 251.46 86.36 0)
 			(effects
 				(font
@@ -9078,15 +9186,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 259.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 259.08 86.36 0)
 			(effects
@@ -9096,7 +9195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 259.08 86.36 0)
 			(effects
 				(font
@@ -9105,7 +9204,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 259.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 259.08 86.36 0)
 			(effects
 				(font
@@ -9213,7 +9321,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "757-TBD62083AFNGEL"
+		(property "LCSC#" "C163229"
+			(at 234.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "757-TBD62083AFNGEL"
 			(at 234.95 162.56 0)
 			(effects
 				(font
@@ -9351,15 +9468,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 256.54 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 256.54 86.36 0)
 			(effects
@@ -9369,7 +9477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 256.54 86.36 0)
 			(effects
 				(font
@@ -9378,7 +9486,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 256.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 256.54 86.36 0)
 			(effects
 				(font
@@ -9432,7 +9549,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 266.7 149.86 0)
 			(effects
 				(font
@@ -9460,7 +9577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 264.16 148.59 0)
 			(effects
 				(font
@@ -9478,7 +9595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 264.16 148.59 90)
 			(effects
 				(font
@@ -9487,7 +9604,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 264.16 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 264.16 148.59 90)
 			(effects
 				(font
@@ -9577,15 +9703,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 251.46 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 251.46 139.7 0)
 			(effects
@@ -9595,7 +9712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 251.46 139.7 0)
 			(effects
 				(font
@@ -9604,7 +9721,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 251.46 139.7 0)
 			(effects
 				(font
@@ -9658,7 +9784,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 261.62 96.52 0)
 			(effects
 				(font
@@ -9686,7 +9812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 259.08 95.25 0)
 			(effects
 				(font
@@ -9704,7 +9830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 259.08 95.25 90)
 			(effects
 				(font
@@ -9713,7 +9839,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 259.08 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 259.08 95.25 90)
 			(effects
 				(font
@@ -9803,15 +9938,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 254 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 254 86.36 0)
 			(effects
@@ -9821,7 +9947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 254 86.36 0)
 			(effects
 				(font
@@ -9830,7 +9956,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 254 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 254 86.36 0)
 			(effects
 				(font
@@ -9884,7 +10019,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 269.24 96.52 0)
 			(effects
 				(font
@@ -9912,7 +10047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 266.7 95.25 0)
 			(effects
 				(font
@@ -9930,7 +10065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 266.7 95.25 90)
 			(effects
 				(font
@@ -9939,7 +10074,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 266.7 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 266.7 95.25 90)
 			(effects
 				(font
@@ -10106,15 +10250,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 266.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 266.7 139.7 0)
 			(effects
@@ -10124,7 +10259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 266.7 139.7 0)
 			(effects
 				(font
@@ -10133,7 +10268,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 266.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 266.7 139.7 0)
 			(effects
 				(font
@@ -10244,7 +10388,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "579-MCP23S17T-E/SS"
+		(property "LCSC#" "C128577"
+			(at 161.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "579-MCP23S17T-E/SS"
 			(at 161.29 137.16 0)
 			(effects
 				(font
@@ -10376,7 +10529,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 259.08 96.52 0)
 			(effects
 				(font
@@ -10404,7 +10557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 256.54 95.25 0)
 			(effects
 				(font
@@ -10422,7 +10575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 256.54 95.25 90)
 			(effects
 				(font
@@ -10431,7 +10584,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 256.54 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 256.54 95.25 90)
 			(effects
 				(font
@@ -10521,15 +10683,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 269.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 269.24 86.36 0)
 			(effects
@@ -10539,7 +10692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 269.24 86.36 0)
 			(effects
 				(font
@@ -10548,7 +10701,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 269.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 269.24 86.36 0)
 			(effects
 				(font
@@ -10733,7 +10895,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRT188R61H105KE3D"
+		(property "LCSC#" "C126631"
+			(at 163.83 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-GRT188R61H105KE3D"
 			(at 163.83 198.12 0)
 			(effects
 				(font
@@ -10865,7 +11036,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 261.62 149.86 0)
 			(effects
 				(font
@@ -10893,7 +11064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 259.08 148.59 0)
 			(effects
 				(font
@@ -10911,7 +11082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 259.08 148.59 90)
 			(effects
 				(font
@@ -10920,7 +11091,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 259.08 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 259.08 148.59 90)
 			(effects
 				(font
@@ -11028,7 +11208,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRT188R61H105KE3D"
+		(property "LCSC#" "C126631"
+			(at 148.59 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-GRT188R61H105KE3D"
 			(at 148.59 198.12 0)
 			(effects
 				(font
@@ -11136,7 +11325,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71H104KA2D"
+		(property "LCSC#" "C161115"
+			(at 153.67 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-GCJ188R71H104KA2D"
 			(at 153.67 198.12 0)
 			(effects
 				(font
@@ -11190,7 +11388,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 254 149.86 0)
 			(effects
 				(font
@@ -11218,7 +11416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 251.46 148.59 0)
 			(effects
 				(font
@@ -11236,7 +11434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 251.46 148.59 90)
 			(effects
 				(font
@@ -11245,7 +11443,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 251.46 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 251.46 148.59 90)
 			(effects
 				(font
@@ -11335,15 +11542,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 266.7 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 266.7 86.36 0)
 			(effects
@@ -11353,7 +11551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 266.7 86.36 0)
 			(effects
 				(font
@@ -11362,7 +11560,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 266.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 266.7 86.36 0)
 			(effects
 				(font
@@ -11416,7 +11623,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8x 100K"
+		(property "Value" "100K"
 			(at 211.582 180.086 0)
 			(effects
 				(font
@@ -11470,7 +11677,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-EXB-2HV104JV"
+		(property "LCSC#" "C713455"
+			(at 201.93 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-EXB-2HV104JV"
 			(at 201.93 179.07 0)
 			(effects
 				(font
@@ -11619,7 +11835,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-H3EF33R0V"
+		(property "LCSC#" "C4313361"
+			(at 138.43 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-H3EF33R0V"
 			(at 138.43 124.46 90)
 			(effects
 				(font
@@ -11750,7 +11975,7 @@
 				)
 			)
 		)
-		(property "Value" "8x 47R"
+		(property "Value" "47R"
 			(at 215.9 97.79 90)
 			(effects
 				(font
@@ -11803,7 +12028,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-EXB-2HV470JV"
+		(property "LCSC#" "C713462"
+			(at 215.9 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-EXB-2HV470JV"
 			(at 215.9 111.76 90)
 			(effects
 				(font
@@ -11899,7 +12133,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8x 100K"
+		(property "Value" "100K"
 			(at 211.582 127 0)
 			(effects
 				(font
@@ -11953,7 +12187,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-EXB-2HV104JV"
+		(property "LCSC#" "C713455"
+			(at 201.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-EXB-2HV104JV"
 			(at 201.93 125.73 0)
 			(effects
 				(font
@@ -12103,7 +12346,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "757-TBD62083AFNGEL"
+		(property "LCSC#" "C163229"
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "757-TBD62083AFNGEL"
 			(at 234.95 109.22 0)
 			(effects
 				(font
@@ -12205,7 +12457,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 269.24 149.86 0)
 			(effects
 				(font
@@ -12233,7 +12485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 266.7 148.59 0)
 			(effects
 				(font
@@ -12251,7 +12503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 266.7 148.59 90)
 			(effects
 				(font
@@ -12260,7 +12512,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 266.7 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 266.7 148.59 90)
 			(effects
 				(font
@@ -12314,7 +12575,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 256.54 149.86 0)
 			(effects
 				(font
@@ -12342,7 +12603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 254 148.59 0)
 			(effects
 				(font
@@ -12360,7 +12621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 254 148.59 90)
 			(effects
 				(font
@@ -12369,7 +12630,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 254 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 254 148.59 90)
 			(effects
 				(font
@@ -12423,7 +12693,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 256.54 96.52 0)
 			(effects
 				(font
@@ -12451,7 +12721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 254 95.25 0)
 			(effects
 				(font
@@ -12469,7 +12739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 254 95.25 90)
 			(effects
 				(font
@@ -12478,7 +12748,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 254 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 254 95.25 90)
 			(effects
 				(font
@@ -12568,15 +12847,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 261.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 261.62 139.7 0)
 			(effects
@@ -12586,7 +12856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 261.62 139.7 0)
 			(effects
 				(font
@@ -12595,7 +12865,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 261.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 261.62 139.7 0)
 			(effects
 				(font
@@ -12649,7 +12928,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 259.08 149.86 0)
 			(effects
 				(font
@@ -12677,7 +12956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 256.54 148.59 0)
 			(effects
 				(font
@@ -12695,7 +12974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 256.54 148.59 90)
 			(effects
 				(font
@@ -12704,7 +12983,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 256.54 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 256.54 148.59 90)
 			(effects
 				(font
@@ -12811,7 +13099,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-H3EF1002V"
+		(property "LCSC#" "C4297913"
+			(at 137.16 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-H3EF1002V"
 			(at 137.16 139.7 90)
 			(effects
 				(font
@@ -12865,7 +13162,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3K3"
 			(at 264.16 96.52 0)
 			(effects
 				(font
@@ -12893,7 +13190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 10KOhm 5% 1/4W AEC-Q200"
+		(property "Description" "SMD 0603 3K3Ohm 5% 1/4W AEC-Q200"
 			(at 261.62 95.25 0)
 			(effects
 				(font
@@ -12911,7 +13208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J103V"
+		(property "Part Number" "ERJ-UP3J332V"
 			(at 261.62 95.25 90)
 			(effects
 				(font
@@ -12920,7 +13217,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J103V"
+		(property "LCSC#" "C491202"
+			(at 261.62 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J332V"
 			(at 261.62 95.25 90)
 			(effects
 				(font
@@ -13010,15 +13316,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 259.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 259.08 139.7 0)
 			(effects
@@ -13028,7 +13325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 259.08 139.7 0)
 			(effects
 				(font
@@ -13037,7 +13334,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 259.08 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 259.08 139.7 0)
 			(effects
 				(font

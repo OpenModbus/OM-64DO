@@ -8265,7 +8265,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71H104KA2D"
+		(property "LCSC#" "C161115"
+			(at 58.42 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-GCJ188R71H104KA2D"
 			(at 58.42 138.43 90)
 			(effects
 				(font
@@ -8362,7 +8371,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71H104KA2D"
+		(property "LCSC#" "C161115"
+			(at 186.69 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-GCJ188R71H104KA2D"
 			(at 186.69 201.93 0)
 			(effects
 				(font
@@ -8582,7 +8600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC#" ""
 			(at 53.34 87.63 0)
 			(effects
 				(font
@@ -8675,7 +8693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC#" "C5188336"
 			(at 270.51 114.3 0)
 			(effects
 				(font
@@ -9023,7 +9041,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GCJ188R71H104KA2D"
+		(property "LCSC#" "C161115"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-GCJ188R71H104KA2D"
 			(at 138.43 115.57 0)
 			(effects
 				(font
@@ -9174,7 +9201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP3J471V"
+		(property "Part Number" "ERJ-UP3J471V"
 			(at 166.37 199.39 90)
 			(effects
 				(font
@@ -9183,7 +9210,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3J471V"
+		(property "LCSC#" "C491199"
+			(at 166.37 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-UP3J471V"
 			(at 166.37 199.39 90)
 			(effects
 				(font
@@ -9479,7 +9515,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-THVD1450DRBR"
+		(property "LCSC#" "C1850226"
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "595-THVD1450DRBR"
 			(at 63.5 154.94 0)
 			(effects
 				(font
@@ -9597,7 +9642,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRT31CR61H106KE1L"
+		(property "LCSC#" "C417124"
+			(at 129.54 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-GRT31CR61H106KE1L"
 			(at 129.54 201.93 0)
 			(effects
 				(font
@@ -9759,7 +9813,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRT31CR61H106KE1L"
+		(property "LCSC#" "C417124"
+			(at 157.48 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-GRT31CR61H106KE1L"
 			(at 157.48 201.93 0)
 			(effects
 				(font
@@ -9847,7 +9910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC#" ""
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -10008,7 +10071,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "511-STM32G031F8P6"
+		(property "LCSC#" "C529334"
+			(at 167.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "511-STM32G031F8P6"
 			(at 167.64 124.46 0)
 			(effects
 				(font
@@ -10148,7 +10220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC#" ""
 			(at 83.82 201.93 0)
 			(effects
 				(font
@@ -10389,7 +10461,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "576-SM712-02HTG"
+		(property "LCSC#" "C172881"
+			(at 81.28 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "576-SM712-02HTG"
 			(at 81.28 149.86 90)
 			(effects
 				(font
@@ -10470,15 +10551,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 166.37 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Number" "LTST-C190EKT"
 			(at 166.37 204.47 0)
 			(effects
@@ -10488,7 +10560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "859-LTST-C190EKT"
+		(property "Manufacturer" "LITEON"
 			(at 166.37 204.47 0)
 			(effects
 				(font
@@ -10497,7 +10569,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITEON"
+		(property "LCSC#" "C364560"
+			(at 166.37 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "859-LTST-C190EKT"
 			(at 166.37 204.47 0)
 			(effects
 				(font
@@ -10651,7 +10732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC#" ""
 			(at 53.34 113.03 0)
 			(effects
 				(font
@@ -10875,8 +10956,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 48.26 200.66 0)
+		(property "LCSC#" "C22380434"
+			(at 48.26 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11035,7 +11116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC#" ""
 			(at 53.34 93.98 0)
 			(effects
 				(font
@@ -11119,7 +11200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "576-SMAJ28A"
+		(property "Part Number" "SMAJ28A"
 			(at 121.92 201.93 90)
 			(effects
 				(font
@@ -11128,7 +11209,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SMAJ28A"
+		(property "LCSC#" "C148227"
+			(at 121.92 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "576-SMAJ28A"
 			(at 121.92 201.93 90)
 			(effects
 				(font
@@ -11225,7 +11315,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "919-R-78E3.3-0.5"
+		(property "LCSC#" "C18212316"
+			(at 143.51 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "919-R-78E3.3-0.5"
 			(at 143.51 198.12 0)
 			(effects
 				(font
@@ -11324,7 +11423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC#" "C5188336"
 			(at 270.51 215.9 0)
 			(effects
 				(font
@@ -11472,8 +11571,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-H3EF1002V"
-			(at 50.8 165.1 0)
+		(property "LCSC#" "C4297913"
+			(at 50.8 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-H3EF1002V"
+			(at 50.8 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11560,7 +11668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC#" ""
 			(at 53.34 100.33 0)
 			(effects
 				(font
@@ -11711,7 +11819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC#" ""
 			(at 53.34 81.28 0)
 			(effects
 				(font
@@ -11804,7 +11912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC#" "C5188336"
 			(at 270.51 165.1 0)
 			(effects
 				(font
@@ -11946,7 +12054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC#" ""
 			(at 53.34 119.38 0)
 			(effects
 				(font
@@ -12160,7 +12268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "576-0466.500NR"
+		(property "Part Number" "0466.500NR"
 			(at 111.76 198.12 0)
 			(effects
 				(font
@@ -12169,7 +12277,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "0466.500NR"
+		(property "LCSC#" "C151133"
+			(at 111.76 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "576-0466.500NR"
 			(at 111.76 198.12 0)
 			(effects
 				(font
@@ -12452,7 +12569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "652-CD123D-B140LR"
+		(property "Part Number" "CD123D-B140LR"
 			(at 118.11 198.12 0)
 			(effects
 				(font
@@ -12461,7 +12578,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CD123D-B140LR"
+		(property "LCSC#" "C6877135"
+			(at 118.11 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "652-CD123D-B140LR"
 			(at 118.11 198.12 0)
 			(effects
 				(font
@@ -12556,7 +12682,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-H3EF1002V"
+		(property "LCSC#" "C4297913"
+			(at 223.52 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "667-ERJ-H3EF1002V"
 			(at 223.52 44.45 90)
 			(effects
 				(font
@@ -12652,7 +12787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC#" "C5188336"
 			(at 270.51 63.5 0)
 			(effects
 				(font
@@ -12869,7 +13004,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRT188R61H225KE3D"
+		(property "LCSC#" "C668370"
+			(at 181.61 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-GRT188R61H225KE3D"
 			(at 181.61 201.93 0)
 			(effects
 				(font
