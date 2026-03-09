@@ -25,7 +25,7 @@ preflight:
   erc:
     format: CSV
   check_zone_fills: true
-  update_xml: true
+  # update_xml: true
 
 outputs:
 - name: generic_bom_csv
@@ -339,7 +339,7 @@ outputs:
   layers:
   - layer: F.Cu
     suffix: F_Cu
-    description: Front copper
+    description: Front copperzip
   - layer: F.Mask
     suffix: F_Mask
     description: Front soldermask (negative)
@@ -382,6 +382,15 @@ outputs:
   dir: Schematic
   options:
     monochrome: true
+- name: artifact_zip
+  comment: All files in a ZIP archive
+  type: compress
+  dir: .
+  options:
+    files:
+      - source: ./**/*
+    format: ZIP
+    output: board_artifact.zip
 
 ...
 definitions:
