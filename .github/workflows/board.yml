@@ -12,12 +12,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build board using KiBot
-        run: kibot -e "OM-64DO.kicad_sch"
-        working_directory: ./kicad
+        run: |
+          cd kicad
+          kibot -e "OM-64DO.kicad_sch"
       - name: Rename artifact
         run: |
-          ARTIFACT_NAME="${{ github.ref_name | replace('board-', '') }}.zip"
-          mv ./kicad/Release/board_artifact.zip "./kicad/Release/${ARTIFACT_NAME}"
+          cd kicad/Release
+          TAG_NAME="${GITHUB_REF_NAME#board-}"
+          ARTIFACT_NAME="${TAG_NAME}.zip"
+          mv board_artifact.zip "${ARTIFACT_NAME}"
           echo "ARTIFACT_NAME=${ARTIFACT_NAME}" >> $GITHUB_ENV
       - name: Create GitHub Release and upload board artifact
         uses: softprops/action-gh-release@v2.5.0
