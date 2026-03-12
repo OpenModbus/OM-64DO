@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "OM-64DO - 64 CHANNEL OUTPUT EXPANSION MODULE (BANK)")
-		(date "2026-03-09")
+		(date "2026-03-12")
 		(rev "1B")
 		(company "HTTPS://GITHUB.COM/OPENMODBUS/OM-64DO")
 		(comment 1 "Supply voltage: 7–28 V DC; Output rating: up to 50 V DC (load side)")
@@ -361,7 +361,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pin" "1=K 2=A"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
