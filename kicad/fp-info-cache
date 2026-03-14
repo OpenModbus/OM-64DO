@@ -1,4 +1,4 @@
-27110392646877465
+27113939664717273
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94643,6 +94643,20 @@ Project_Library
 TerminalBlock_DEGSON_15EDGVC-3.5-20P_No_SilkScreen
 Pluggable Terminal Blocks Nominal current 7A. Rated voltage 250V, pitch 3.5mm, Color green, Contact surface Tin
 Terminal Block DEGSON 15EDGVC pitch 3.5mm 20P
+0
+20
+20
+Project_Library
+TerminalBlock_KF350-3.5-4P_No_SilkScreen
+
+Terminal Block KF350 pitch 3.5mm 4P
+0
+4
+4
+Project_Library
+TerminalBlock_KF350-3.5-20P_No_SilkScreen
+
+Terminal Block KF350 pitch 3.5mm 20P
 0
 20
 20

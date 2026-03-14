@@ -8639,7 +8639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15EDGVC-3.5-20P"
+		(property "Value" "KF350-3.5-20P"
 			(at 273.05 87.63 0)
 			(effects
 				(font
@@ -8648,7 +8648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project_Library:TerminalBlock_DEGSON_15EDGVC-3.5-20P_No_SilkScreen"
+		(property "Footprint" "Project_Library:TerminalBlock_KF350-3.5-20P_No_SilkScreen"
 			(at 270.51 114.3 0)
 			(effects
 				(font
@@ -8666,7 +8666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fixed Terminal Blocks"
+		(property "Description" ""
 			(at 270.51 114.3 0)
 			(effects
 				(font
@@ -8675,7 +8675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "10030000695"
+		(property "Part Number" ""
 			(at 270.51 114.3 0)
 			(effects
 				(font
@@ -8684,7 +8684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "DEGSON"
+		(property "Manufacturer" "KEFA"
 			(at 270.51 114.3 0)
 			(effects
 				(font
@@ -8693,7 +8693,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C5188336"
+		(property "LCSC#" ""
 			(at 270.51 114.3 0)
 			(effects
 				(font
@@ -10903,7 +10903,7 @@
 				)
 			)
 		)
-		(property "Value" "15EDGVC-3.5-4P"
+		(property "Value" "KF350-3.5-4P"
 			(at 44.958 201.422 90)
 			(effects
 				(font
@@ -10911,7 +10911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project_Library:TerminalBlock_DEGSON_15EDGVC-3.5-4P_No_SilkScreen"
+		(property "Footprint" "Project_Library:TerminalBlock_KF350-3.5-4P_No_SilkScreen"
 			(at 48.26 200.66 0)
 			(effects
 				(font
@@ -10929,7 +10929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 48.26 200.66 0)
 			(effects
 				(font
@@ -10938,7 +10938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "10030000681"
+		(property "Part Number" ""
 			(at 48.26 200.66 0)
 			(effects
 				(font
@@ -10947,7 +10947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "DEGSON"
+		(property "Manufacturer" "KEFA"
 			(at 48.26 200.66 0)
 			(effects
 				(font
@@ -10956,7 +10956,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C22380434"
+		(property "LCSC#" ""
 			(at 48.26 200.66 90)
 			(effects
 				(font
@@ -11369,7 +11369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15EDGVC-3.5-20P"
+		(property "Value" "KF350-3.5-20P"
 			(at 273.05 189.23 0)
 			(effects
 				(font
@@ -11378,7 +11378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project_Library:TerminalBlock_DEGSON_15EDGVC-3.5-20P_No_SilkScreen"
+		(property "Footprint" "Project_Library:TerminalBlock_KF350-3.5-20P_No_SilkScreen"
 			(at 270.51 215.9 0)
 			(effects
 				(font
@@ -11396,7 +11396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fixed Terminal Blocks"
+		(property "Description" ""
 			(at 270.51 215.9 0)
 			(effects
 				(font
@@ -11405,7 +11405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "10030000695"
+		(property "Part Number" ""
 			(at 270.51 215.9 0)
 			(effects
 				(font
@@ -11414,7 +11414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "DEGSON"
+		(property "Manufacturer" "KEFA"
 			(at 270.51 215.9 0)
 			(effects
 				(font
@@ -11423,7 +11423,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C5188336"
+		(property "LCSC#" ""
 			(at 270.51 215.9 0)
 			(effects
 				(font
@@ -11858,7 +11858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15EDGVC-3.5-20P"
+		(property "Value" "KF350-3.5-20P"
 			(at 273.05 138.43 0)
 			(effects
 				(font
@@ -11867,7 +11867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project_Library:TerminalBlock_DEGSON_15EDGVC-3.5-20P_No_SilkScreen"
+		(property "Footprint" "Project_Library:TerminalBlock_KF350-3.5-20P_No_SilkScreen"
 			(at 270.51 165.1 0)
 			(effects
 				(font
@@ -11885,7 +11885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fixed Terminal Blocks"
+		(property "Description" ""
 			(at 270.51 165.1 0)
 			(effects
 				(font
@@ -11894,7 +11894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "10030000695"
+		(property "Part Number" ""
 			(at 270.51 165.1 0)
 			(effects
 				(font
@@ -11903,7 +11903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "DEGSON"
+		(property "Manufacturer" "KEFA"
 			(at 270.51 165.1 0)
 			(effects
 				(font
@@ -11912,7 +11912,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C5188336"
+		(property "LCSC#" ""
 			(at 270.51 165.1 0)
 			(effects
 				(font
@@ -12733,7 +12733,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15EDGVC-3.5-20P"
+		(property "Value" "KF350-3.5-20P"
 			(at 273.05 36.83 0)
 			(effects
 				(font
@@ -12742,7 +12742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project_Library:TerminalBlock_DEGSON_15EDGVC-3.5-20P_No_SilkScreen"
+		(property "Footprint" "Project_Library:TerminalBlock_KF350-3.5-20P_No_SilkScreen"
 			(at 270.51 63.5 0)
 			(effects
 				(font
@@ -12760,7 +12760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fixed Terminal Blocks"
+		(property "Description" ""
 			(at 270.51 63.5 0)
 			(effects
 				(font
@@ -12769,7 +12769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "10030000695"
+		(property "Part Number" ""
 			(at 270.51 63.5 0)
 			(effects
 				(font
@@ -12778,7 +12778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "DEGSON"
+		(property "Manufacturer" "KEFA"
 			(at 270.51 63.5 0)
 			(effects
 				(font
@@ -12787,7 +12787,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C5188336"
+		(property "LCSC#" ""
 			(at 270.51 63.5 0)
 			(effects
 				(font
