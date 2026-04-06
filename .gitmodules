@@ -1,0 +1,3 @@
+[submodule "stm32/Libs/libModbus"]
+	path = stm32/Libs/libModbus
+	url = https://github.com/OpenModbus/libModbus
